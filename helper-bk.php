@@ -1,8 +1,8 @@
 <?php
 function send_telegram_message($message, $message_thread_id = null)
 {
-    $telegram_api_token = '7346932196:AAGuUQeUbYiFdK0UUXHBb7ZWf_P7EnUPSzs';
-    $telegram_chat_id = '-1002011077438';
+    $telegram_api_token = ' ';
+    $telegram_chat_id = '-';
 
     $data = array(
         'chat_id' => $telegram_chat_id,
